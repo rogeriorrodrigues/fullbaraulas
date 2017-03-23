@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{C1E819E7-3201-4FF3-8530-46D806A01D93}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="fullbar/App.xaml">
     <Files>
-      <File FileName="fullbar/App.xaml" Line="6" Column="27" />
+      <File FileName="fullbar/App.xaml" Line="10" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
