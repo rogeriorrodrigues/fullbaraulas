@@ -15,7 +15,8 @@
 			HorizontalOptions="CenterAndExpand" FontSize="20" />
 
 			<Button Text="Clicar" TextColor="Aqua" BackgroundColor="Blue" 
-			WidthRequest="150" HeightRequest="50" Clicked="Handle_Clicked"/>
+			WidthRequest="150" HeightRequest="50" Clicked="Handle_Clicked"
+			Style="{StaticResource BotaoTeste}"/>
 
 	
 
