@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="fullbar.Page1" Title="Page 1" BackgroundColor="White" >
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" x:Name="stkTeste" 
+			HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="15" Padding="20">
+
+			<DatePicker HorizontalOptions="CenterAndExpand" WidthRequest="100" />
+			<Entry x:Name="txtTeste" HeightRequest="50" WidthRequest="200" Placeholder="Usuario"
+			PlaceholderColor="Fuchsia" HorizontalOptions="CenterAndExpand" />
+
+			<Label x:Name="lblTeste" TextColor="Purple" WidthRequest="100" 
+				FontAttributes="Bold"
+			HorizontalOptions="CenterAndExpand" FontSize="20" />
+
+			<Button Text="Clicar" TextColor="Aqua" BackgroundColor="Blue" 
+			WidthRequest="150" HeightRequest="50" Clicked="Handle_Clicked"/>
+
+	
+
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
