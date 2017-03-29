@@ -8,7 +8,7 @@ namespace fullbar
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new Page1());
+			MainPage = new NavigationPage(new HomePage());
 		}
 
 		protected override void OnStart()

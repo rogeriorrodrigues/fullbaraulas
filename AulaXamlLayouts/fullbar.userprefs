@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{C1E819E7-3201-4FF3-8530-46D806A01D93}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="fullbar/App.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="fullbar/App.xaml.cs">
     <Files>
-      <File FileName="fullbar/App.xaml" Line="10" Column="5" />
+      <File FileName="fullbar/Pages/HomePage.xaml.cs" Line="32" Column="40" />
+      <File FileName="fullbar/App.xaml.cs" Line="11" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -10,6 +11,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.fullbar.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.60.101:5555" />
+  <MonoDevelop.Ide.ItemProperties.fullbar.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MultiItemStartupConfigurations />
 </Properties>

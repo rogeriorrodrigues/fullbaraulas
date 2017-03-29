@@ -29,17 +29,20 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="fullbarPage.xaml" />
-    <EmbeddedResource Include="Pages\Page1.xaml">
+    <EmbeddedResource Include="Pages\CarouselPage\TesteCarrousel.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\TabPage.xaml">
+    <EmbeddedResource Include="Pages\Modal\PageModal.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\TesteCarrousel.xaml">
+    <EmbeddedResource Include="Pages\ContentPage\Page1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\PageModal.xaml">
+    <EmbeddedResource Include="Pages\TabPage\TabPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\NavigationPage\fullbarPage.xaml" />
+    <EmbeddedResource Include="Pages\HomePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -47,21 +50,24 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="fullbarPage.xaml.cs">
-      <DependentUpon>fullbarPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Pages\Page1.xaml.cs">
-      <DependentUpon>Page1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\TabPage.xaml.cs">
-      <DependentUpon>TabPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\TesteCarrousel.xaml.cs">
+    <Compile Include="Pages\CarouselPage\TesteCarrousel.xaml.cs">
       <DependentUpon>TesteCarrousel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\PageModal.xaml.cs">
+    <Compile Include="Pages\Modal\PageModal.xaml.cs">
       <DependentUpon>PageModal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ContentPage\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TabPage\TabPage.xaml.cs">
+      <DependentUpon>TabPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NavigationPage\fullbarPage.xaml.cs">
+      <DependentUpon>fullbarPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +86,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
+    <Folder Include="Pages\ContentPage\" />
+    <Folder Include="Pages\CarouselPage\" />
+    <Folder Include="Pages\TabPage\" />
+    <Folder Include="Pages\Modal\" />
+    <Folder Include="Pages\NavigationPage\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.3.193\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

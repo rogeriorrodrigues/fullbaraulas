@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="fullbar.HomePage">
+	<ContentPage.Content>
+		<StackLayout Spacing="15" Padding="15" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+
+			<Button Text="TabPage" Clicked="Tab_Clicked" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" TextColor="White"/>
+
+			<Button Text="Carousel" Clicked="Car_Clicked" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" TextColor="White"/>
+
+			<Button Text="Modal" Clicked="Modal_Clicked" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" TextColor="White"/>
+
+			<Button Text="ContentPage com Controls" Clicked="Cont_Clicked" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" TextColor="White"/>
+			
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
