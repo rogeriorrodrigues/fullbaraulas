@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{C1E819E7-3201-4FF3-8530-46D806A01D93}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="fullbar/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="fullbar/Pages/HomePage.xaml.cs">
     <Files>
       <File FileName="fullbar/Pages/HomePage.xaml.cs" Line="32" Column="40" />
       <File FileName="fullbar/App.xaml.cs" Line="11" Column="46" />
